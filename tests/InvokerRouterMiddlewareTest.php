@@ -15,7 +15,6 @@ use Psr\Http\Message\UriInterface;
 
 class InvokerRouterMiddlewareTest extends TestCase
 {
-
     public function testCreateDispatcher()
     {
         $routes = [

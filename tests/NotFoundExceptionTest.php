@@ -8,7 +8,6 @@ use Psr\Http\Message\ServerRequestInterface;
 
 class NotFoundExceptionTest extends TestCase
 {
-
     public function testGetRequest()
     {
         $testRequest = $this->getMockBuilder(ServerRequestInterface::class)

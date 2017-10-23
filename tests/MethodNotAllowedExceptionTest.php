@@ -8,7 +8,6 @@ use Psr\Http\Message\ServerRequestInterface;
 
 class MethodNotAllowedExceptionTest extends TestCase
 {
-
     public function testRequest()
     {
         $testRequest = $this->getMockBuilder(ServerRequestInterface::class)
