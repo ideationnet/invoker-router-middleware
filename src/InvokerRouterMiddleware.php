@@ -44,7 +44,7 @@ class InvokerRouterMiddleware implements MiddlewareInterface
     public function process(
         ServerRequestInterface $request,
         RequestHandlerInterface $handler
-    ) {
+    ): ResponseInterface {
         list($action, $vars) = $this->getRoute($request);
 
         foreach ($vars as $key => $value) {
